@@ -1,0 +1,26 @@
+.custom-carousel-inner {
+  min-height: 500px;
+  @include for-phone {
+    min-height: 330px;
+  }
+}
+
+.testimonials-content img {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+  @include for-phone {
+    margin-top: 0;
+  }
+}
+
+// makes arrows black
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+// makes indicators black
+.carousel-indicators {
+  filter: invert(100%);
+}

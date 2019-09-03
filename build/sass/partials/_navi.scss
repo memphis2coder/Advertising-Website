@@ -1,0 +1,15 @@
+.custom-navbar {
+  background-color: $primary-color;
+}
+
+.nav-link {
+  color: white !important;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0.8;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
